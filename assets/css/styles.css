@@ -1,0 +1,22 @@
+.topo {
+    display: flex;
+    justify-content: flex-end;
+}
+.menu { 
+    display: flex;
+}
+.menu div {
+    margin: 8px;
+}
+.menu_escolha {
+    padding-top: 2px;
+}
+.foto img {
+    height: 24px;
+    width: 24px;
+    border-radius: 12px;
+}
+section {
+    display: flex;
+    justify-content: center;
+}
