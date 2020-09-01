@@ -11,12 +11,43 @@
 .menu_escolha {
     padding-top: 2px;
 }
+.menu a {
+    text-decoration: none;
+}
+.menu a:hover {
+    color: violet;
+}
 .foto img {
     height: 24px;
     width: 24px;
     border-radius: 12px;
 }
 section {
-    display: flex;
     justify-content: center;
+}
+.container {
+    justify-content: center;
+}
+.logo img {
+    width: 400px;
+}
+.busca, .logo {
+    text-align: center;
+    margin: 10px;
+}
+#procurar {
+    border-radius: 20px;
+    border: 1px solid; 
+    width: 600px;
+    outline-color: royalblue;
+    outline:none;
+}
+#submeter {
+    border-radius: 10px;
+    border: 1px solid;
+}
+input:focus {
+    border-color: skyblue;
+    box-shadow: 5px 5px 10px #888888;
+    outline: none;
 }
