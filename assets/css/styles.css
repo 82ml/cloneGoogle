@@ -8,12 +8,16 @@ body {
 }
 .menu { 
     display: flex;
+    align-items: center;
+}
+.menu img {
+    align-items: center;
 }
 .menu div {
     margin: 8px;
 }
 .menu_escolha {
-    padding-top: 2px;
+    align-items: center;
 }
 .menu a {
     text-decoration: none;
@@ -22,9 +26,13 @@ body {
     color: violet;
 }
 .foto img {
-    height: 24px;
-    width: 24px;
-    border-radius: 12px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    padding-top: 5px;
+}
+.icone img{
+    padding-top: 5px;
 }
 section {
     margin-top: 100px;
@@ -48,6 +56,7 @@ section {
     height: 30px;
     outline-color: #DFDAE0;
     outline:none;
+    padding-inline-start: 12px;
 }
 #submeter {
     border-radius: 5px;
@@ -61,23 +70,37 @@ input:hover, button:hover {
     box-shadow: 3px 3px 10px #DFDAE0;
     outline: none;
 }
+footer {
+    align-content: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
+.paises a, .infos_rodape a {
+    text-decoration: none;
+    color: #999999;
+    margin: 10px;
+}
+.paises, .infos_rodape {
+    display: flex;
+    align-items: center;
+}
+.infos_rodape {
+    display: flex;
+}
 .paises, .infos_rodape {
     background-color: #f2f2f2;
     height: 50px;
     border: 1px solid;
     border-color: #e6e6e6;
 }
-.paises a, .infos_rodape a {
-    text-decoration: none;
-}
-footer {
-    flex: auto;
-}
 .infos_esq {
     flex: auto;
-    text-align: left;
-    align-items: center;
 }
 .infos_dir {
     text-align: right;
+    margin-right: 10px;
 }
+
+
