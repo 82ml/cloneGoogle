@@ -1,3 +1,7 @@
+body {
+    font-size: 17px;
+    margin: 0px;
+}
 .topo {
     display: flex;
     justify-content: flex-end;
@@ -23,7 +27,8 @@
     border-radius: 12px;
 }
 section {
-    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
 }
 .container {
     justify-content: center;
@@ -33,21 +38,46 @@ section {
 }
 .busca, .logo {
     text-align: center;
-    margin: 10px;
+    margin: 30px;
 }
 #procurar {
     border-radius: 20px;
     border: 1px solid; 
+    border-color: #DFDAE0;
     width: 600px;
-    outline-color: royalblue;
+    height: 30px;
+    outline-color: #DFDAE0;
     outline:none;
 }
 #submeter {
-    border-radius: 10px;
-    border: 1px solid;
+    border-radius: 5px;
+    height: 30px;
+    border: 0px solid;
+    margin: 5px;
+    outline-color: #DFDAE0;
+    outline:none;
 }
-input:focus {
-    border-color: skyblue;
-    box-shadow: 5px 5px 10px #888888;
+input:hover, button:hover {
+    box-shadow: 3px 3px 10px #DFDAE0;
     outline: none;
+}
+.paises, .infos_rodape {
+    background-color: #f2f2f2;
+    height: 50px;
+    border: 1px solid;
+    border-color: #e6e6e6;
+}
+.paises a, .infos_rodape a {
+    text-decoration: none;
+}
+footer {
+    flex: auto;
+}
+.infos_esq {
+    flex: auto;
+    text-align: left;
+    align-items: center;
+}
+.infos_dir {
+    text-align: right;
 }
