@@ -48,15 +48,38 @@ section {
     text-align: center;
     margin: 30px;
 }
-#procurar {
+.barra_busca {
     border-radius: 20px;
     border: 1px solid; 
     border-color: #DFDAE0;
     width: 600px;
     height: 30px;
     outline-color: #DFDAE0;
-    outline:none;
     padding-inline-start: 12px;
+    display: inline-flex;
+}
+.icones_busca img{
+    align-items: flex-end;
+    padding-left: 10px;
+}
+.icones_busca {
+    display: flex;
+    justify-content: flex-end;
+    width: 600px;
+    padding-inline-end: 10px;
+    padding-left: 20px;
+}
+.lupinha {
+    display: flex;
+    justify-content: start;
+    width: max-content;
+}
+#procurar {
+    display: flex;
+    border: none;
+    width: 450px;
+    height: 25px;
+    outline: none;
 }
 #submeter {
     border-radius: 5px;
@@ -66,7 +89,8 @@ section {
     outline-color: #DFDAE0;
     outline:none;
 }
-input:hover, button:hover {
+
+.barra_busca:hover, button:hover {
     box-shadow: 3px 3px 10px #DFDAE0;
     outline: none;
 }
